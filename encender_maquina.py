@@ -1,7 +1,7 @@
 """
 Script para intentar encender una maquina | deben de tener la opción habilitada en el BIOS
-uso: encender_maquina.py nombre_host ej: encender_maquina CAJA1
-Rigoberto Martínez L. | versión 0.0.1 | 12 noviembre 2019
+uso: encender_maquina.py nombre_host ej: encender_maquina host1
+Por: ]3/\|)´|+|>< versión 0.0.1 | 12 noviembre 2019
 """
 import socket
 import sys
@@ -37,7 +37,7 @@ print("\
   / ____|_   _|_   _|  \\/  | Script: encender_maquina\n\
  | (___   | |   | | | \\  / | ver: 0.0.1\n\
   \\___ \\  | |   | | | |\\/| | Fecha: 12-11-19\n\
-  ____) |_| |_ _| |_| |  | | Por: Rigoberto M.\n\
+  ____) |_| |_ _| |_| |  | | Por: ]3/\\|)´|+|><.\n\
  |_____/|_____|_____|_|  |_|\n\
 ")
 if len(sys.argv) > 1:
